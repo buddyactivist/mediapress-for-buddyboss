@@ -1,0 +1,36 @@
+.mpfb-compat-active .site-header,
+.mpfb-compat-active header.site-header,
+.mpfb-compat-active .bb-header,
+.mpfb-compat-active .rl-header,
+.mpfb-compat-active .readylaunch-header,
+.mpfb-compat-active .landing-header {
+    display: block !important;
+    visibility: visible !important;
+    z-index: 9999 !important;
+}
+
+.mpfb-compat-active .site-footer,
+.mpfb-compat-active footer.site-footer,
+.mpfb-compat-active .bb-footer,
+.mpfb-compat-active .rl-footer,
+.mpfb-compat-active .readylaunch-footer,
+.mpfb-compat-active .landing-footer {
+    display: block !important;
+    visibility: visible !important;
+}
+
+.mpfb-compat-active .site-content,
+.mpfb-compat-active .content-area,
+.mpfb-compat-active .main-content {
+    margin-top: 0 !important;
+    padding-top: 1rem !important;
+}
+
+.mpp-gallery, .mpp-media {
+    z-index: 1000;
+}
+
+.header-main[style*="display:none"], .footer-main[style*="display:none"] {
+    display: block !important;
+    visibility: visible !important;
+}
